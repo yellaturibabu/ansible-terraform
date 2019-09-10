@@ -1,7 +1,7 @@
 ---
 - name: Executing Terraform
   terraform:
-    project_path: '{{ playbook_dir }}/terraform-scripts/providers/{{provider}}'
+    project_path: '{{ playbook_dir }}/terraform/providers/{{provider}}'
     lock: true
     force_init: yes
     backend_config:

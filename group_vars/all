@@ -1,0 +1,4 @@
+provider: gce 
+region: us-east1-b 
+tf_state: 
+instance_name: my_test_ins
